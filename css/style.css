@@ -1,0 +1,40 @@
+.dropdown-content {
+    display: none;
+}
+
+
+.dropdown.open .dropdown-content {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.code-block {
+    white-space: pre;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.timeline {
+    position: relative;
+    padding-left: 2rem;
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+  }
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -1rem;
+    top: 0;
+    width: 1rem;
+    height: 1rem;
+    background: #4CAF50; /* green */
+    border-radius: 50%;
+    border: 2px solid white;
+  }
